@@ -81,7 +81,7 @@ spec:
       serviceAccountName: default
       containers:
         - name: server
-          image: pranav/checkoutservice:latest
+          image: pranav27/checkoutservice:latest
           ports:
           - containerPort: 5050
           readinessProbe:
